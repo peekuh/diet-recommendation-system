@@ -1,0 +1,45 @@
+/* navbar */
+.navbar{
+    background-color: #E5D1FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* carousel classes */
+#carouselExampleIndicators {
+    background-color: #E3DFFD;
+    color:#fff;   
+}
+
+.carousel-item{
+    padding-top: 3.5%;
+    padding-bottom: 5%;
+
+}
+
+.food{
+    border-radius: 50%;
+}
+.headings{
+    text-align: center;
+    color: aqua;
+    padding-top: 2%;
+}
+.headings1{
+    background-color: #E3DFFD;
+    text-align: center;
+    color: aqua;
+    margin-bottom: 0;
+}
+/* footer */
+.fa-brands{
+    padding-right: 1%;
+}
