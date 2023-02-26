@@ -10,6 +10,21 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/167a7b54bb.js" crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- JS & CSS library of MultiSelect plugin -->
+     <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@100;400;900&family=Sacramento&family=Slabo+27px&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    <!-- font awesome  -->
+  <script src="https://kit.fontawesome.com/167a7b54bb.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -17,7 +32,7 @@
     <!-- Navbar (sit on top) -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">FindREC</a>
+            <a class="navbar-brand" href="#">DEitIT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,14 +41,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Fitness Block</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#dietplan" tabindex="-1" aria-disabled="true">Diet Suggestion</a>
                     </li>
                 </ul>
 
@@ -41,8 +56,8 @@
         </div>
     </nav>
     <!-- Header -->
-    <div class="headings1">
-        <h1 style="margin: 0%;">POPULAR FOODS</h1>
+    <div class="headingsfit">
+        <h1 style="margin: 0%; padding: 4%;">Fitness Block</h1>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -55,16 +70,22 @@
         </div>
         <div class="carousel-inner w-100 h-100">
             <div class="carousel-item active">
-                <img src="images/biryani.jpg" class="d-block mx-auto w-50 food" alt="...">
-                <h1 class="headings">Burger</h1>
+                <img src="images/yoga.jpg" class="d-block mx-auto w-50 food" alt="...">
+                <a href="https://www.nytimes.com/guides/well/beginner-yoga" class="title">
+                    <h1 class="headings">Yoga</h1>
+                </a>
             </div>
             <div class="carousel-item">
-                <img src="images/samosa.jpg" class="d-block mx-auto w-50 food" alt="...">
-                <h1 class="headings">Burger</h1>
+                <img src="images/sports.jpg" class="d-block mx-auto w-50 food" alt="...">
+                <a href="https://manhattanmedicalarts.com/blog/effect-of-sports-on-general-health/" class="title">
+                    <h1 class="headings">Sports</h1>
+                </a>
             </div>
             <div class="carousel-item">
-                <img src="images/burgerandfries.jpg" class="d-block mx-auto w-50 food" alt="...">
-                <h1 class="headings">Burger</h1>
+                <img src="images/workout.jpg" class="d-block mx-auto w-50 food" alt="...">
+                <a href="https://www.goodrx.com/well-being/movement-exercise/strength-training" class="title">
+                    <h1 class="headings">Working Out</h1>
+                </a>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -80,135 +101,112 @@
     </div>
 
     <!-- Page content -->
-    <div class="content w3-padding" style="max-width:1564px">
 
-        <!-- Project Section -->
-        <!-- <div class="w3-container w3-padding-32" id="projects">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-        </div>
 
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-                    <img src="/w3images/house5.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-                    <img src="/w3images/house2.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-                    <img src="/w3images/house3.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-                    <img src="/w3images/house4.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-        </div>
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32" id="about">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
 
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-                    <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-                    <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-                    <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-                    <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-        </div> -->
-        <!-- Contact Section -->
-        <div class="w3-container w3-padding-32" id="contact">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Provide information </h3>
-            <p>to generate desired diet.</p>
-            <form action="/action_page.php" target="_blank">
-                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="height" required name="height">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Weight" required name="Weight">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Age" required name="Age">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Sex" required name="Sex">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Cuisine" required name="Cuisine">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Allergies" required name="Allergies">
-                <button class="w3-button w3-black w3-section" type="submit">
-                    <i class="fa fa-paper-plane"></i> WEIGHT LOSS DIET
-                </button>
-                <button class="w3-button w3-black w3-section" type="submit">
-                    <i class="fa fa-paper-plane"></i> WEIGHT GAIN DIET
-                </button>
-                <button class="w3-button w3-black w3-section" type="submit">
-                    <i class="fa fa-paper-plane"></i> MAINTAINANCE DIET
-                </button>
-            </form>
-        </div>
+    
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-32" id="dietplan">
+        <h3 class="w3-padding-16">Provide information </h3>
+        <p>to generate desired diet.</p>
+        <form action="/action_page.php" target="_blank">
+            <input class="input w3-input w3-section" type="text" placeholder="Name" required name="Name">
+            <input class="input w3-input w3-section " type="text" placeholder="height" required name="height">
+            <input class="input w3-input w3-section  " type="text" placeholder="Weight" required name="Weight">
+            <input class="input w3-input w3-section  " type="text" placeholder="Age" required name="Age">
+            <input class="w3-input w3-section  input " type="text" placeholder="Cuisine" required name="Cuisine">
 
-        <!-- About Section -->
-        <div class="w3-container w3-padding-32" id="about">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
+            <input class="w3-input w3-section input " type="text" placeholder="Allergies" required name="Allergies">
+            <label for="Cusine">Choose Cuisine:</label><select class="input w3-input w3-section " name="Cuisine"
+                id="Cuisine">
+                <option value="British">British</option>
+                <option value="Indian">Indian</option>
+                <option value="Italian">Italian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Chinese">Chinese</option>
+                <option value="French">French</option>
+                <option value="Mediterranean">Mediterranean</option>
+                <option value="Mexican">Mexican</option>
+                <option value="American">American</option>
 
-        <div class="w3-row-padding w3-grayscale">
-            <div class="w3-col l4 m6 w3-margin-bottom">
-                <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-                <h3>John Doe</h3>
-                <p class="w3-opacity">CEO & Founder</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+            </select>
+            <!-- <div class="row">
+                <div class="col-lg-2">
+                    <button class="w3-button w3-black w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> WEIGHT LOSS DIET
+                    </button>
+                </div>
+                <div class="col-lg-2">
+                    <button class="w3-button w3-black w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> WEIGHT GAIN DIET
+                    </button>
+                </div>
+                <div class="col-lg-2">
+                    <button class="w3-button w3-black w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> MAINTAINANCE DIET
+                    </button>
+                </div>
+            </div> -->
+            <button class="w3-button w3-black w3-section" type="submit">
+                <i class="fa fa-paper-plane"></i> MAINTAINANCE DIET
+            </button>
+        </form>
+    </div>
+
+    <div class="container-fluid con">
+        <div class="row">
+            <div class="col-md-4 w3-margin-bottom">
+
+                <h3>Srijan Sarthak</h3>
+                <p class="w3-opacity">Backend Developer</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+                <p><button class="contactbtn w3-button w3-block">Contact</button></p>
             </div>
-            <div class="w3-col l4 m6 w3-margin-bottom">
-                <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-                <h3>Jane Doe</h3>
+            <div class="col-md-4 w3-margin-bottom">
+
+                <h3>Ritansh Bagal</h3>
                 <p class="w3-opacity">Architect</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+                <p><button class="contactbtn w3-button w3-block">Contact</button></p>
             </div>
-            <div class="w3-col l4 m6 w3-margin-bottom">
-                <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-                <h3>Mike Ross</h3>
-                <p class="w3-opacity">Architect</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-            </div>
+            <div class="col-md-4 w3-margin-bottom">
 
+                <h3>Aahlaad Ishaan</h3>
+                <p class="w3-opacity">Frontend Developer</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+                <p><button class="contactbtn w3-button w3-block">Contact</button></p>
+            </div>
         </div>
     </div>
 
-
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
-        <i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-meta"></i><i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-meta"></i>
+        <i class="fa-solid fa-envelope"></i>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

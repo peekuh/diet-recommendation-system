@@ -1,21 +1,20 @@
 /* navbar */
 .navbar{
-    background-color: #E5D1FA;
+    background-color: #60B6FF;
+    padding: 1%;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
-
-
-
-
-
-
-
-
-
-
+.navbar-brand{
+    font-size: 2rem;
+}
 
 /* carousel classes */
 #carouselExampleIndicators {
-    background-color: #E3DFFD;
+    background-color:  #23DBEA;
     color:#fff;   
 }
 
@@ -23,23 +22,61 @@
     padding-top: 3.5%;
     padding-bottom: 5%;
 
+
+}
+.title{
+    
+        color: red;
+        text-decoration: none;
+        text-transform: uppercase;
+    
 }
 
+/* footer */
+.fa-brands{
+    padding-right: 1%;
+}
+/* Provid info section */
+#dietplan{
+    background-color: #24EDDC;
+}
+.input{
+    background-color: #23DBEA;
+    border: #60B6FF;
+}
+/* about */
+.w3-container{
+    background-color: #24FFCE;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+/* contact team */
+.con{
+    background-color: #2EEFAE;
+    padding: 4%;
+}
+.contactbtn{
+    background-color: #23DBEA;
+} 
+/* others */
 .food{
     border-radius: 50%;
 }
 .headings{
     text-align: center;
-    color: aqua;
     padding-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
-.headings1{
-    background-color: #E3DFFD;
+.headingsfit{
+    background-color: #42C9F5;
     text-align: center;
-    color: aqua;
+    
     margin-bottom: 0;
-}
-/* footer */
-.fa-brands{
-    padding-right: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
