@@ -4,12 +4,13 @@
     padding: 1%;
     font-size: large;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: 900;
+    
+    
     line-height: 1.5;
 }
 .navbar-brand{
     font-size: 2rem;
+    font-weight: 900;
 }
 
 /* carousel classes */
@@ -68,7 +69,7 @@
 }
 /* others */
 .food{
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .headings{
     text-align: center;
