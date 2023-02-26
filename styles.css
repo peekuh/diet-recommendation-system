@@ -58,6 +58,14 @@
 .contactbtn{
     background-color: #23DBEA;
 } 
+.card{
+    background-color: #2EEFAE;
+    padding: 4%;
+    border: none;
+}
+.btn-primary{
+    background-color: #23DBEA;
+}
 /* others */
 .food{
     border-radius: 50%;
